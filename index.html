@@ -2,23 +2,400 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cats</title>
-    <link
-      rel="shortcut icon"
-      href="https://placekitten.com/96/139"
-      type="image/x-icon"
-    />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
+    <title>Figma Land</title>
   </head>
+
   <body>
-    <h1>Cute creature</h1>
-    <h2>They are everywhere</h2>
-    <img src="hero.jpg" alt="Cat">
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#">Home</a></li>
+          <li class="header__menu-item"><a href="#">Product</a></li>
+          <li class="header__menu-item"><a href="#">Pricing</a></li>
+          <li class="header__menu-item"><a href="#">About</a></li>
+          <li class="header__menu-item"><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="header__logo">
+          <img
+            src="img/Figma-logo.png"
+            alt="Figma Land Logo"
+            class="header__logo-img"
+          />
+        </div>
+
+        <div class="header__social-links">
+          <a href="#" class="header__social-link">
+            <img
+              src="img/twitter-white.png"
+              alt="Twitter"
+              class="header__social-icon"
+            />
+          </a>
+          <a href="#" class="header__social-link">
+            <img
+              src="img/facebook-white.png"
+              alt="Facebook"
+              class="header__social-icon"
+            />
+          </a>
+          <a href="#" class="header__social-link">
+            <img
+              src="img/linkedin-white.png"
+              alt="LinkedIn"
+              class="header__social-icon"
+            />
+          </a>
+        </div>
+      </nav>
+      <section class="header__hero">
+        <h1 class="header__title">The best products start with Figma</h1>
+        <p class="header__description">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <button class="header__cta">Try For Free</button>
+      </section>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h1 class="features__title">Features</h1>
+      <p class="features__description">
+        Most calendars are designed for teams.<br />Slate is designed for
+        freelancers.
+      </p>
+      <div class="features__items">
+        <div class="features__item">
+          <img src="img/icon-1.png" alt="Icon 1" class="features__icon" />
+          <h3 class="features__item-title">
+            OpenType features<br />Variable fonts
+          </h3>
+          <p class="features__item-description">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal.
+          </p>
+        </div>
+        <div class="features__item">
+          <img src="img/icon-2.png" alt="Icon 2" class="features__icon" />
+          <h3 class="features__item-title">Design with real data</h3>
+          <p class="features__item-description">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal.
+          </p>
+        </div>
+        <div class="features__item">
+          <img src="img/icon-3.png" alt="Icon 3" class="features__icon" />
+          <h3 class="features__item-title">Fastest way to take action</h3>
+          <p class="features__item-description">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-section__container">
+        <img src="img/video.png" alt="Video" class="video-section__video" />
+        <div class="video-section__play-button">
+          <img
+            src="img/play-button.png"
+            alt="play-button"
+            class="video-section__play-button"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Organize Section -->
+    <section class="organize">
+      <h1 class="organize__title">Fastest way to organize</h1>
+      <p class="organize__description">
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+      <button class="organize__cta">Try For Free</button>
+    </section>
+
+    <!-- Prototyping -->
+    <div class="organize__photo">
+      <img src="img/laptop-mockup.png" alt="Laptop with app screenshot" />
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h3 class="newsletter__subtitle">At your fingertips</h3>
+      <h2 class="newsletter__title">Lightning fast prototyping</h2>
+      <p class="newsletter__description">
+        Subscribe to our Newsletter<br />Available exclusively on Figmaland
+      </p>
+      <input type="email" class="newsletter__input" placeholder="Your Email" />
+      <button class="newsletter__cta">Subscribe</button>
+      <div class="newsletter__photo">
+        <img src="img/newsletter.png" alt="Person with mail" />
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+      <h2 class="partners__title">Partners</h2>
+      <p class="partners__description">
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+      <div class="partners__grid">
+        <img src="img/google.png" alt="Google" class="partners__logo" />
+        <img src="img/amazon.png" alt="Amazon" class="partners__logo" />
+        <img src="img/microsoft.png" alt="Microsoft" class="partners__logo" />
+        <img src="img/uber.png" alt="Uber" class="partners__logo" />
+        <img src="img/dropbox.png" alt="Dropbox" class="partners__logo" />
+        <img src="img/google.png" alt="Google" class="partners__logo" />
+        <img src="img/uber.png" alt="Uber" class="partners__logo" />
+        <img src="img/amazon.png" alt="Amazon" class="partners__logo" />
+      </div>
+      <button class="partners__cta">Try For Free</button>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2 class="testimonials__title">Testimonials</h2>
+      <div class="testimonial__description">
+        <img src="img/ibm-logo.png" alt="IBM Logo" />
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </p>
+        <div class="testimonial__photo">
+          <img src="img/author-photo.png" alt="Author Photo" />
+          <p>Organize across<br /><span>UI Designer</span></p>
+        </div>
+      </div>
+      <button>More Testimonials</button>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <h2 class="pricing__title">Pricing</h2>
+      <p class="pricing__text">
+        Most calendars are designed for teams. Slate is designed for
+        freelancers.
+      </p>
+      <div class="pricing__cards">
+        <div class="pricing__card">
+          <h3>Free</h3>
+          <p>Organize across all apps by hand</p>
+          <p><strong>0$</strong> Per Month</p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+        <div class="pricing__card">
+          <h3>Standard</h3>
+          <p>Organize across all apps by hand</p>
+          <p><strong>10$</strong> Per Month</p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+        <div class="pricing__card">
+          <h3>Business</h3>
+          <p>Organize across all apps by hand</p>
+          <p><strong>99$</strong> Per Month</p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2 class="contact__title">Contact Us</h2>
+      <p class="contact__description">
+        Most calendars are designed for teams. Slate is designed for
+        freelancers.
+      </p>
+      <form class="contact__form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <div class="contact-info">
+        <div class="contact__address">
+          <img
+            src="img/address-icon-blue.png"
+            alt="Address Logo"
+            class="contact__address-img"
+          />
+          <p>
+            <strong>Address:</strong> 6386 Spring St undefined Anchorage,
+            Georgia 12473 United States
+          </p>
+        </div>
+        <div class="contact__phone">
+          <img
+            src="img/phone-icon-blue.png"
+            alt="Phone Logo"
+            class="contact__phone-img"
+          />
+          <p><strong>Phone:</strong> (843) 555-0130</p>
+        </div>
+        <div class="contact__email">
+          <img
+            src="img/email-icon-blue.png"
+            alt="Email Logo"
+            class="contact__email-img"
+          />
+          <p><strong>Email:</strong> willie.jennings@example.com</p>
+        </div>
+
+        <img src="img/map.png" alt="Map Placeholder" />
+
+        <div class="contact__social-icons">
+          <a href="#" class="contact__social-link">
+            <img
+              src="img/twitter-blue.png"
+              alt="Twitter"
+              class="contact__social-icon"
+            />
+          </a>
+          <a href="#" class="contact__social-link">
+            <img
+              src="img/facebook-blue.png"
+              alt="Facebook"
+              class="contact__social-icon"
+            />
+          </a>
+          <a href="#" class="contact__social-link">
+            <img
+              src="img/linkedin-blue.png"
+              alt="LinkedIn"
+              class="contact__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <!-- Footer Links -->
+        <div class="footer__links">
+          <!-- Pages -->
+          <div class="footer__column">
+            <h4 class="footer__title">Pages</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Home</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Product</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Pricing</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tomothy -->
+          <div class="footer__column">
+            <h4 class="footer__title">Tomothy</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Eleanor Edwards</li>
+              <li class="footer__list-item">Ted Robertson</li>
+              <li class="footer__list-item">Annette Russell</li>
+              <li class="footer__list-item">Jennie Mckinney</li>
+              <li class="footer__list-item">Gloria Richards</li>
+            </ul>
+          </div>
+
+          <!-- Jane Black -->
+          <div class="footer__column">
+            <h4 class="footer__title">Jane Black</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Philip Jones</li>
+              <li class="footer__list-item">Product</li>
+              <li class="footer__list-item">Colleen Russell</li>
+              <li class="footer__list-item">Marvin Hawkins</li>
+              <li class="footer__list-item">Bruce Simmons</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Contact Info -->
+        <div class="footer__info">
+          <p class="footer__address">
+            <img
+              src="img/address-icon-white.png"
+              alt="Address Icon"
+              class="footer__icon"
+            />
+            <strong>Address:</strong> 7480 Mockingbird Hill undefined
+          </p>
+          <p class="footer__phone">
+            <img
+              src="img/phone-icon-white.png"
+              alt="Phone Icon"
+              class="footer__icon"
+            />
+            <strong>Phone:</strong> (239) 555-0108
+          </p>
+          <!-- Social Links -->
+          <div class="footer__social-icons">
+            <a href="#" class="footer__social-link">
+              <img
+                src="img/twitter-white.png"
+                alt="Twitter"
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#" class="footer__social-link">
+              <img
+                src="img/facebook-white.png"
+                alt="Facebook"
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#" class="footer__social-link">
+              <img
+                src="img/linkedin-white.png"
+                alt="LinkedIn"
+                class="footer__social-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
