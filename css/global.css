@@ -20,4 +20,21 @@ html {
 
 header {
   background-image: url(../img/header-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+}
+
+body {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  color: var(--text-color);
 }
