@@ -19,6 +19,5 @@ html {
 }
 
 header {
-    background-image: url(..img/header-background.png);
-  }
-  
+  background-image: url(../img/header-background.png);
+}
