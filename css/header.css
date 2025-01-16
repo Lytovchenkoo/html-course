@@ -1,5 +1,6 @@
 .header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-background.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/header-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -73,13 +74,12 @@
 .header__title {
   font-size: 48px;
   padding-top: 50px;
-  padding-left:  10px;
+  padding-left: 10px;
   padding-right: 10px;
 }
 .header__description {
   padding-top: 10px;
   font-size: 28px;
-
 }
 
 .header__cta {
@@ -92,4 +92,28 @@
   color: var(--main-color);
   margin-bottom: 358px;
   transition: all 0.3s;
+}
+
+.header__hero {
+  position: relative;
+}
+
+.header__hero::before,
+.header__hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  height: 70px;
+  background: var(--main-color);
+}
+
+.header__hero::before {
+  left: 0;
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+
+.header__hero::after {
+  right: 0;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
