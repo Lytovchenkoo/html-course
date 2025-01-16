@@ -1,7 +1,6 @@
-
 header {
   background-image: url("../img/header-background.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-attachment: fixed;
@@ -61,7 +60,7 @@ header {
   visibility: hidden;
 }
 
-.header__description-extention{
+.header__description-extention {
   visibility: hidden;
 }
 
@@ -71,10 +70,10 @@ header {
   letter-spacing: 0.2px;
 }
 
-.header__title{
+.header__title {
   font-size: 48px;
 }
-.header__description{
+.header__description {
   font-size: 28px;
 }
 
