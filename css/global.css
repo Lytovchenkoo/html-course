@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/graphik");
 
 *,
 *::before,
@@ -16,20 +16,13 @@ html {
 :root {
   --main-color: #ffffff;
   --text-color: #000;
+  --button-color: #2091f9;
 }
 
 header {
-  background-image: url(../img/header-background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  font-family: "Inter", serif;
+  font-family: "Graphik", serif;
   font-size: 16px;
   color: var(--main-color);
-}
 
 }
 
