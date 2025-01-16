@@ -1,5 +1,5 @@
-header {
-  background-image: url("../img/header-background.jpeg");
+.header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -72,9 +72,14 @@ header {
 
 .header__title {
   font-size: 48px;
+  padding-top: 50px;
+  padding-left:  10px;
+  padding-right: 10px;
 }
 .header__description {
+  padding-top: 10px;
   font-size: 28px;
+
 }
 
 .header__cta {
