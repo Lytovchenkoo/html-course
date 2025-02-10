@@ -9,6 +9,7 @@
 .features__title {
   font-size: 30px;
   font-weight: 400;
+  color: var(--title-color);
 }
 
 .features__description {
@@ -37,7 +38,8 @@
 
 .features__item-title {
   font-size: 18px;
-  font-weight: bold;
+  color: var(--title-color);
+  font-weight: 700;
   margin-bottom: 5px;
 }
 
@@ -55,15 +57,21 @@
   margin: 10px 0;
 }
 
-.video__container {
+.features__video-container {
   position: relative;
+}
+
+.video__container {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 .video__preview {
-  width: 100%;
   display: block;
+  width: 100%;
   border-radius: 12px;
 }
 
@@ -76,6 +84,9 @@
   height: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .video__play-button img {

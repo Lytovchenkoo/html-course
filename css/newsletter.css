@@ -12,10 +12,12 @@
 .newsletter__subtitle {
   font-size: 14px;
   font-weight: bold;
+  color: var(--title-color);
 }
 
 .newsletter__tagline {
   font-size: 28px;
+  color: var(--title-color);
 }
 
 .newsletter__description {
@@ -34,6 +36,7 @@
 .newsletter__description-accent {
   font-weight: bold;
   font-size: 14px;
+  color: var(--title-color);
 }
 .newsletter__cta {
   background-color: var(--accent-blue);
