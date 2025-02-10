@@ -1,0 +1,43 @@
+.organize {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.organize__title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.organize__description {
+  margin-bottom: 20px;
+}
+
+.organize__description-addition {
+  display: none;
+}
+
+.organize__cta {
+  padding: 15px 65px;
+  border-radius: 35px;
+  background-color: var(--accent-blue);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--main-color);
+
+  transition: all 0.3s;
+}
+
+.organize__photo {
+  margin-top: 30px;
+}
+
+.organize__photo img {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}

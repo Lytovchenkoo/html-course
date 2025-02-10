@@ -1,0 +1,44 @@
+.partners {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.partners__title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.partners__description {
+  margin-bottom: 20px;
+}
+
+.partners__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.partners__logo {
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.partners__cta {
+  background-color: var(--accent-blue);
+  color: var(--main-color);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.additional {
+  display: none;
+}

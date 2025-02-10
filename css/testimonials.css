@@ -1,0 +1,35 @@
+.testimonials {
+  padding: 40px 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial__description img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.testimonial__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.testimonial__photo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.testimonial__cta {
+    background-color: var(--accent-blue);
+    color: var(--main-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 100%;
+  }

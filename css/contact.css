@@ -1,0 +1,102 @@
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contact__description {
+  margin-bottom: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.contact__description-addition {
+  display: none;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 14px;
+  background-color: var(--accent-grey);
+}
+
+.contact__form input {
+  margin-top: 10px;
+}
+
+.contact__form textarea {
+  border-radius: 0;
+  height: 120px;
+}
+
+.contact__form button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: var(--accent-blue);
+  color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+  align-self: flex-start;
+  padding: 12px 25px;
+  font-size: 14px;
+  width: 40%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.contact__map {
+  display: none;
+}
+
+.contact__address,
+.contact__phone,
+.contact__email {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+address {
+    margin: 0;
+}
+
+.contact__social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact__social-icon {
+  width: 30px;
+  height: 30px;
+}

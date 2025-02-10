@@ -1,0 +1,74 @@
+.footer {
+  padding: 100px 40px;
+  text-align: center;
+  background-color: var(--background-darkblue);
+  color: var(--main-color);
+}
+
+.footer__links {
+  margin-bottom: 20px;
+}
+
+.footer__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__info {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer__address,
+.footer__phone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 10px;
+}
+
+.footer__phone{
+    margin-left: 15px;
+}
+
+.footer__phone span{
+    margin-left: 10px;
+}
+
+.footer__social-link{
+    padding-top: 25px;
+    display: inline-block;
+}
+
+.footer__social img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__column {
+  display: none;
+}
+
+.footer__team {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+
+.footer__team-list li {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer__team-list {
+  margin: 0;
+  padding: 0;
+}
+

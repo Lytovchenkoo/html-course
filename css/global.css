@@ -21,11 +21,16 @@ body {
 :root {
   --main-color: #ffffff;
   --text-color: #000;
-  --button-color: #2091f9;
+  --accent-blue: #2091f9;
+  --accent-grey: rgb(211, 211, 211);
+  --background-darkblue: #11182b;
+}
+
+* {
+  font-family: "Graphik", serif;
 }
 
 header {
-  font-family: "Graphik", serif;
   font-size: 16px;
   color: var(--main-color);
 }
@@ -34,4 +39,22 @@ body {
   font-family: "Inter", serif;
   font-size: 16px;
   color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 64px;
+  }
 }
