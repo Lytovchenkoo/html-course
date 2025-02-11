@@ -33,6 +33,10 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.contact__form-title {
+  display: none;
+}
+
 .contact__form input,
 .contact__form textarea {
   width: 100%;
@@ -57,7 +61,7 @@
   width: 40%;
 }
 
-.contact-info {
+.contact__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -93,4 +97,114 @@ address {
 .contact__social-icon {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (min-width: 1280px) {
+  .contact__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .contact__title {
+    font-size: 30px;
+  }
+
+  .contact__description {
+    font-size: 24px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .contact__description-addition {
+    display: inline-flex;
+  }
+
+  .contact__form {
+    flex: 1;
+    order: 1;
+    height: 100%;
+    margin-left: 60px;
+  }
+
+  .contact__form input,
+  .contact__form textarea {
+    width: 85%;
+  }
+
+  .contact__form button{
+    width: 30%;
+    margin-left: 25px;
+  }
+
+  .contact__form textarea {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .contact__form-title {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .contact__sidepart {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  .contact__address-info {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .contact__address,
+  .contact__phone,
+  .contact__email {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .contact__address img,
+  .contact__phone img,
+  .contact__email img {
+    width: 20px;
+    margin-bottom: 5px;
+  }
+
+  .additional {
+    display: none;
+  }
+  .contact__map {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+  }
+
+  .contact__social-icons {
+    display: flex;
+    align-self: flex-start;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .contact__social-icon {
+    width: 40px;
+    height: 40px;
+  }
 }

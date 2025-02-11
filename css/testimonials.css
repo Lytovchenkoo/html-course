@@ -44,3 +44,12 @@
 .testimonial__photo span {
   font-size: 12px;
 }
+
+@media screen and (min-width: 1280px) {
+  .testimonial__description{
+    font-weight: 400;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}

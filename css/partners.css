@@ -1,7 +1,7 @@
 .partners {
   text-align: center;
   padding: 40px 20px;
-  max-width: 400px;
+
   margin: 0 auto;
 }
 
@@ -36,4 +36,31 @@
 
 .additional {
   display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .additional {
+    display: grid;
+  }
+
+  .partners__grid {
+    display: grid;
+    max-width: 900px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 0;
+    justify-content: center;
+  }
+
+  .partners__logo {
+    padding: 0;
+    width: 220px;
+    height: 120px;
+  }
+
+  .partners__cta {
+    margin: 50px auto;
+    width: 20%;
+  }
 }

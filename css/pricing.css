@@ -82,3 +82,47 @@
   font-size: 14px;
   vertical-align: super;
 }
+
+@media screen and (min-width: 1280px) {
+  .pricing {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  .pricing__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  .pricing__title{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 36px;
+  }
+
+  .pricing__text{
+    font-size: 20px;
+    width: 30%;
+    margin: 20px auto;
+  }
+
+  .pricing__card p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .pricing__card {
+    width: 23%;
+  }
+
+  .pricing__card:nth-child(2) {
+    transform: scale(1.15);
+    margin: 0 30px;
+  }
+
+ 
+}

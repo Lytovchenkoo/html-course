@@ -1,7 +1,6 @@
 .organize {
   text-align: center;
   padding: 40px 20px;
-  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -33,4 +32,46 @@
   max-width: 350px;
   display: block;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .organize {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .organize__info,
+  .organize__photo {
+    flex: 1;
+  }
+
+  .organize__title {
+    font-size: 36px;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .organize__photo {
+    margin: 0;
+  }
+
+  .organize__description-addition {
+    display: inline;
+  }
+
+  .organize__description {
+    font-size: 24px;
+    text-align: left;
+    width: 75%;
+    margin-left: auto;
+  }
+
+  .organize__cta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }

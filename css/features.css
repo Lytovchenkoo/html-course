@@ -93,3 +93,35 @@
   width: 50px;
   height: 50px;
 }
+
+@media screen and (min-width: 1280px) {
+  .features {
+    margin: 35px 120px;
+  }
+  .features__video {
+    display: none;
+  }
+
+  .features__description span {
+    display: inline-block;
+  }
+
+  .features__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .features__item {
+    margin: 0;
+    width: 25%;
+  }
+
+  .features__title {
+    font-size: 36px;
+  }
+
+  .features__description {
+    font-size: 26px;
+  }
+}
