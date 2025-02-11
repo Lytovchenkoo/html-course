@@ -38,12 +38,7 @@
   color: var(--title-color);
 }
 .newsletter__cta {
-  background-color: var(--accent-blue);
-  color: var(--main-color);
-  padding: 12px 24px;
-  border: none;
-  border-radius: 30px;
-  width: 100%;
+  width: 20%;
 }
 
 .newsletter__photo {
